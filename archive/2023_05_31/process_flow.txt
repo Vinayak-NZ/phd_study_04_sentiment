@@ -1,0 +1,11 @@
+Pre-processing:
+1) Highlight app relevant parts of transcript
+2) Remove interviewee from transcript
+
+Code:
+1) Create a CSV with {id, response, topic}
+2) Import CSV
+3) Subset to id and topic 
+4) Break up texts into sentences
+5) Get sentiment and probabilities for each sentence
+6) Derive a score at the topic level using: (Positive sentences - Negative sentences)/ Total sentences

@@ -1,0 +1,1 @@
+logfile=open(r"C:/Users/vanandkuma/Documents/projects/sentiment_analysis/input/ldavis_prepared_3", 'w')
